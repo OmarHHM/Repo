@@ -1,0 +1,449 @@
+body {
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+.floatLeft {
+	float: left;
+}
+
+.floatRight {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+.marginTop5 {
+	margin-top: 5px !important;
+}
+
+.cursorPointer {
+	cursor: pointer;
+}
+
+.catalog-widget .widget-body {
+	padding: 0;
+	overflow: hidden;
+}
+
+/* estilo para los combos de las tablas jqgrid */
+.ui-jqgrid .ui-jqgrid-btable select {
+	width: 100%;
+}
+
+.ui-jqgrid .ui-jqgrid-htable th div {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.project-context ul.dropdown-menu {
+	margin: 0 0 0 13px;
+}
+
+/* estilo para cambiar el formato de los campos deshabilitados y solo lectura */
+input[readonly],
+input[disabled],
+select[readonly],
+select[disabled],
+textarea[readonly],
+textarea[disabled] {
+	background: #f5f5f5;
+}
+
+.smart-form .input input[readonly],
+.smart-form .input input[disabled],
+.smart-form .select select[readonly],
+.smart-form .select select[disabled],
+.smart-form .textarea textarea[readonly],
+.smart-form .textarea textarea[disabled] {
+	background: #f5f5f5;
+}
+
+.smart-form .input input[readonly].datepicker {
+	cursor: default;
+	background: #fff;
+}
+
+.smart-form .input input[readonly].datepicker.invalid {
+	background: #fff0f0;
+}
+
+.smart-form .select select[readonly] + i,
+.smart-form .select select[disabled] + i {
+	background: #f5f5f5;
+	box-shadow: 0 0 0 9px #f5f5f5;
+}
+
+/* overrides */
+#logo img {
+	margin-top: -10px;
+	width: 50px !important;
+}
+
+.login-info a span {
+	text-transform: none;
+}
+
+.login-info a:hover {
+	color: #a8a8a8;
+	cursor: default;
+}
+
+.jarviswidget>div {
+	border-width: 1px 1px 1px;
+}
+
+.ui-jqgrid .ui-pg-input,.ui-jqgrid .ui-pg-selbox {
+	width: 15px;
+	text-align: center;
+}
+
+nav ul li.open>a,
+nav ul li.open>a b {
+	color: #a8a8a8!important;
+}
+
+nav ul li.open>a:hover,
+nav ul li.open>a b:hover {
+	color: #fff!important;
+}
+
+#external-events>li>:first-child:after {
+	color: #fff;
+	color: rgba(255, 255, 255, .7);
+	content: attr(data-description);
+	font-size: 11px;
+	font-weight: 400;
+	display: block;
+	line-height: 100%;
+	margin: 7px 0;
+	text-transform: none;
+}
+
+/* eliminar */
+#show-shortcut {
+	margin-top: 10px;
+}
+
+#remove, #add, #removeP, #addP {
+	text-decoration: none;
+	color: #FFF;
+	margin: auto 2px;
+	clear: both;
+}
+
+.rolesdiv {
+	float: left;
+	text-align: center;
+	margin: 10px;
+	width: 100%;
+	height: 300px;
+}
+
+.rolesdiv a {
+	width: 20px;
+}
+
+.rolesdiv li {
+	display: block;
+}
+
+#select1, #select2 {
+	float: left;
+}
+
+#boton1, #boton2 {
+	float: left;
+	margin: auto 10px;
+}
+
+#boton1 {
+	margin: 15px;
+	margin-top: 40px;
+}
+
+#boton2 {
+	margin: 15px;
+	margin-top: 5px;
+}
+
+#rolesselect2, #proyectosselect2{
+	margin-right: 50px;
+}
+
+.selectroles, .selectproyectos {
+	width: 300px;
+	height: 80px;
+}
+
+.smart-form .col-11 {
+    width: 91.66%;
+}
+
+.smart-form .col-12 {
+    width: 100%;
+}
+
+.smart-form .state-error + em{
+	position: absolute;
+}
+ 
+.hide {
+ 	visibility: hidden;
+ 	display: none;
+}
+
+.oculto2{
+	opacity:0;
+}
+
+/* .smart-form fieldset .row {margin: 0px !important; padding-bottom: 25px;} */
+
+.smart-form .state-error em {
+	float: left;
+	position: absolute;
+	color: #d56161;
+	font-size: 11px;
+	font-style: normal;
+}
+
+.dt-toolbar > *:last-child .DTTT, .dt-toolbar > *:last-child .dataTables_filter > *:only-child, .dt-toolbar > *:last-child .dataTables_length, .dt-toolbar > *:last-child .pagination{margin-left: 10px}
+ 
+.DTTT .btn{padding: 7px 12px !important;}
+
+.checkActivo input{
+	padding-right: 5px;
+}
+
+.dt-toolbar>*:last-child .DTTT,.dt-toolbar>*:last-child .dataTables_filter>*:only-child,.dt-toolbar>*:last-child .dataTables_length,.dt-toolbar>*:last-child .pagination { margin-left: 10px }
+
+/* Quitamos el color verde de la validaciï¿½n */
+.smart-form .checkbox.state-success i, .smart-form .radio.state-success i, .smart-form .state-success input, .smart-form .state-success select, .smart-form .state-success textarea, .smart-form .toggle.state-success i{background:none repeat scroll 0 0 #FFFFFF; border: 1px solid #ccc;}
+/*
+.smart-form .checkbox.state-error i, .smart-form .radio.state-error i, .smart-form .state-error input, .smart-form .state-error select, .smart-form .state-error textarea, .smart-form .toggle.state-error i{padding-left: 0px}}
+*/
+
+#form-seguimiento .col-sm-3{width: 24% !important;}
+#form-seguimiento .col-sm-6{width: 49% !important;}
+
+.widget-icon-margin{margin: 0px 10px 0px 15px;}
+
+.statusabierta{font-weight: bold; color: red;}
+.statusabiertaformAbierta{color: red; font-size: 17px; font-weight: bold;}
+.statusabiertaformCerrada{color: red; font-size: 17px; font-weight: bold;}
+.txtCentrado{text-align: center;}
+
+.visible{display: block;}
+.oculto{display: none;}
+
+#cover-file-dz,
+#draft-file-dz {
+	min-height: 280px;
+}
+
+.custom-form-actions {
+	display: block;
+	padding: 13px 13px 15px;
+	border-top: 1px solid rgba(0,0,0,.1);
+	background: rgba(249,249,249,.9);
+	margin-top: 25px;
+	text-align: right;
+}
+
+.custom-form-actions .btn {
+	float: right;
+	height: 31px;
+	margin: 0px 0 0 5px;
+	padding: 0 22px;
+	font: 300 15px/29px 'Open Sans',Helvetica,Arial,sans-serif;
+	cursor: pointer;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.ui-widget {
+	font-family: "Open Sans",Arial,Helvetica,Sans-Serif;
+}
+
+.dropzone {
+	background-color: #fafafa;
+	background-image: none;
+}
+
+.dropzone .dz-default.dz-message {
+	background-image: none;
+	margin-top: -80px;
+	text-align: center;
+}
+
+.dropzone .dz-default.dz-message .fa,
+.dropzone .dz-default.dz-message .glyphicon {
+	margin: 0 0 0 0;
+	display: block;
+	font-size: 80px;
+	color: #444;
+}
+
+.dropzone .dz-default.dz-message span {
+	display: inline-block;
+	font-weight: 300;
+	font-size: 40px;
+	letter-spacing: -1px;
+	line-height: 29px;
+}
+
+.dropzone .dz-default.dz-message span small {
+	font-weight: 300;
+	font-size: 19px;
+	color: #999;
+	line-height: 19px;
+}
+
+.jqgrid-personnel {
+	border-top: 1px;
+	border-top-color: #CCC !important;
+}
+
+.colcentrado{float:none !important; margin-left:auto !important; margin-right:auto !important}
+
+.no-padding-left-right{padding-left: 0 !important; padding-right: 0 !important;}
+
+.ms-container .ms-list {-webkit-border-radius:0px !important; border-radius:0px !important;}
+.ms-container li {line-height: 30px;}
+
+
+
+
+#personal .smart-form .toggle i:before{height: 18px; width:18px}
+
+#personal .smart-form .toggle {
+	display:inline;
+}
+
+#personal .smart-form .toggle input:checked + i:before {
+    right: 67px;
+}
+
+
+#personal .smart-form .toggle i:after{
+	font-size: 13px;
+	top: 6px;	
+	right: 13px;
+}
+
+#personal .smart-form .toggle i {
+	height: 25px;
+	width: 90px;
+	font-size: 13px;
+	top: 5px;
+}
+
+.smart-form .toggle i:before {
+    background-color: #0088cc;
+}
+
+.callendarIcon {
+	bottom: 20px;
+}
+
+#listTab{
+	 list-style-type: none;
+    margin-left: 0;
+ padding-left: 0;
+ display: inline;
+}
+
+#listTab li{
+	display: inline;
+}
+
+#listTab li{
+	display:inline;
+}
+
+#tabSet i{
+	margin : 0px -5px 10px 10px;
+}
+
+#formulario{
+	margin-top: -26px;
+
+border: 2px solid #3D82AB;
+padding-top: 30px;
+}
+
+.maginTopNegativo{
+	margin-top : -15px;
+}
+
+.scroll_tab_left_finisher, .scroll_tab_right_finisher{
+	border-radius: 0px;
+}
+
+/*.scroll_tab_right_finisher{
+	border-top-right-radius: 15px;
+	
+}
+
+.scroll_tab_left_finisher{
+	border-top-left-radius: 15px;
+}*/
+
+tr .moneda, tr .numerico{
+	text-align: right;
+}
+
+/*Wizard - Formulario de tamaï¿½o 3*/
+.wizard-col-3 {
+	width: 24% !important;
+	margin-right: 1%;
+}
+
+/*Wizard - Formulario de tamaï¿½o 4*/
+.wizard-col-4 {
+	width: 32.3% !important;
+	margin-right: 1%;
+}
+
+/*Wizard - Formulario de tamaï¿½o 6*/
+.wizard-col-6 {
+	width: 49% !important;
+	margin-right: 1%;
+}
+
+/*Wizard - Formulario de tamaï¿½o 9*/
+.wizard-col-9 {
+	width: 74% !important;
+	margin-right: 1%;
+}
+
+/*Wizard - estilo para select 3*/
+.select-tipo-persona {
+	width: 390% !important;
+}
+
+.employee-btn-cancel {
+	float: right !important;
+	margin: 0px 20px 20px 0px !important;
+}
+
+.offices {
+	margin: 20px 0px 25px 0px !important;
+}
+
+/*Estilo para el botón quitar*/
+.delete-office {
+	margin: 25px 20px 20px 0px !important;
+	padding:5px 7px !important;
+}
+
+#area-chart,
+#line-chart,
+#bar-chart,
+#stacked,
+#pie-chart{
+  min-height: 250px;
+}

@@ -1,0 +1,21 @@
+#extr-page #header {
+	overflow: visible;
+}
+
+#extr-page #header #logo {
+	margin-top: 13px;
+}
+
+.header-dropdown-list {
+	margin: 10px;
+}
+
+#login-error {
+	display: none;
+	margin-top: 6px;
+	padding: 0 1px;
+	font-style: normal;
+	line-height: 15px;
+	color: #d56161;
+	text-align: center;
+}
